@@ -27,14 +27,6 @@ It also includes a second layer of filtering for potentially harmful or unsafe c
 - `prompt_injection_model/` — saved fine-tuned model and tokenizer files
 - `requirements.txt` — required Python libraries
 
-## Requirements
-
-Install the dependencies using:
-
-```bash
-pip install -r requirements.txt
-
-
 ## Model Download
 
 The trained model file is too large for standard GitHub upload.
@@ -52,3 +44,11 @@ Expected structure:
 project-folder/
 ├── streamlit_app.py
 └── prompt_injection_model/
+
+## Requirements
+
+Install the dependencies using:
+
+```bash
+pip install -r requirements.txt
+
