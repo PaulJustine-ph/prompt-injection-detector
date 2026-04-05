@@ -33,3 +33,22 @@ Install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
+
+
+## Model Download
+
+The trained model file is too large for standard GitHub upload.
+
+Download the model here:
+(https://drive.google.com/drive/folders/1hmgsjTIyXBUxGTTuZzFCZUKul12HvpIU?usp=sharing)
+
+After downloading:
+1. Extract the zip file
+2. Rename the folder to `prompt_injection_model` if needed
+3. Place it beside `streamlit_app.py`
+
+Expected structure:
+
+project-folder/
+├── streamlit_app.py
+└── prompt_injection_model/
